@@ -18,8 +18,8 @@ img {
 
 .vNav {
     position: fixed;
-    top: 45%;
-    left: 84%;
+    top: 35%;
+    left: 88%;
     width: 50px;
     z-index: 9999;
     list-style-type: none;
@@ -42,7 +42,7 @@ img {
     height: 8px;
     text-indent: -9999px;
     border-radius: 50%;
-    border: 2px solid;
+    border: 4px solid;
     border-color: navy;
     text-decoration: none;
 }
@@ -91,18 +91,22 @@ img {
     background-color: white;
 }
 .title {
-    font-weight: 300;
-     text-transform: uppercase;
-     font-size: 70px;
-  	top: 30%;
-  	margin-left: auto;
-	margin-right: auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 60px;
+  	top: 15%;
+  	margin-left: 6%;
+	margin-right: 8%;
 	left: 0;
 	right: 0;
-     position: absolute;
+	position: absolute;
+	padding: 10% 0% 25% 0%;
+	border-radius: 40px;
+    border: 10px solid #EA9999;
+    box-shadow: 0px 10px #FFE29C, 0px 22px #9DC4FF;
 }
-#intro .buttons {
-	bottom: 30%;
+.title .buttons {
+	margin-top: 15%;
 	margin-left: auto;
 	margin-right: auto;
 	left: 0;
@@ -110,18 +114,17 @@ img {
 	position: absolute;
 }
 
-#intro .section-shortcut {
+.title .section-shortcut {
 	display: inline-block;
-	background-color: white;
-    border-style: solid;
-    border-color: navy;
-    color: #874c62;
+    border-radius: 10px;
     width: 120px;
-    padding: 10px;
+    padding: 1.5% 2% 1.5% 3%;
     margin: 20px;
-    font-size: 16px;
-    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(146, 196, 125, 0.81);
 }
+
 #intro .section-shortcut:hover {
 	color: #f2d388;
 }
@@ -131,6 +134,7 @@ img {
   bottom: 10%;
   width: 38px;
   height: 44px;
+  left: 47%;
   background: url("../img/cd-arrow-bottom.svg") no-repeat center center;
 }
 
