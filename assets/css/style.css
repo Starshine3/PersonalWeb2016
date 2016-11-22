@@ -1,0 +1,225 @@
+body {
+  font-size: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #3e3947;
+  background-color: white;
+}
+body, html {
+  height: 100%;
+}
+
+a {
+  color: #3e3947;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+
+.vNav {
+    position: fixed;
+    top: 45%;
+    left: 84%;
+    width: 50px;
+    z-index: 9999;
+    list-style-type: none;
+}
+
+.vNav ul {
+    position: relative;
+    padding-left: 35%;
+}
+
+.vNav ul li{
+    position: relative;
+    padding-bottom: 20px;
+    padding-left: 35%;
+}
+
+.vNav a{
+    display: block;
+    width: 8px;
+    height: 8px;
+    text-indent: -9999px;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: navy;
+    text-decoration: none;
+}
+
+.vNav a:hover{
+    border-radius: 50%;
+    background-color:white;
+    text-decoration: none;
+    transform: scale(1.3);
+}
+.vNav a:hover .label {
+	opacity: 1;
+}
+
+.vNav a.active{
+    border-radius: 50%;
+    background-color: navy;
+    text-decoration: none;
+}
+
+.label {
+    position: relative;
+    top: -35%;
+    left: -250%;
+    width: 100%;
+    text-align: right;
+    font-size: .6em;
+    color: navy;
+    opacity:0;
+    text-transform: uppercase;
+}
+
+/* All section style. */
+.section {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+/* Intro section styles. */
+#intro {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+.title {
+    font-weight: 300;
+     text-transform: uppercase;
+     font-size: 70px;
+  	top: 30%;
+  	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+     position: absolute;
+}
+#intro .buttons {
+	bottom: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	position: absolute;
+}
+
+#intro .section-shortcut {
+	display: inline-block;
+	background-color: white;
+    border-style: solid;
+    border-color: navy;
+    color: #874c62;
+    width: 120px;
+    padding: 10px;
+    margin: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+#intro .section-shortcut:hover {
+	color: #f2d388;
+}
+
+#intro .scroll-down {
+  position: absolute;
+  bottom: 10%;
+  width: 38px;
+  height: 44px;
+  background: url("../img/cd-arrow-bottom.svg") no-repeat center center;
+}
+
+/* Page section styles. */
+
+#top {
+    background-color: #a7d2cb;
+}
+#about-me {
+    background-color: #f2d388;
+}
+
+#projects {
+    background-color: #874c62;
+}
+
+#translation {
+    background-color: #c98474;
+}
+
+/* Project section - Carousel style. */
+.carousel-container {
+    width: 960px;
+    margin: 0 auto;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+#carousel {
+    width: 4800px;
+    height: 100%;
+    margin-left: 0px;
+    -webkit-transition: all 0.3s;
+}
+
+.carousel-item {
+    width: 960px;
+    position: relative;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+/* Styling for the carousel previous button */
+#carousel-prev {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    left: 60px;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s;
+}
+
+/* Styling for the carousel next button */
+#carousel-next {
+    position: absolute;
+     width: 30px;
+    height: 30px;
+    padding: 10px;
+    right: 60px;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s;
+
+.project-name {
+	position: absolute;
+	font-size: 24px;
+	color: white;
+	font-weight: 700;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+   	transform: translateX(-50%) translateY(-50%);
+}
+
+.project-desc {
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: .2rem;
+	text-transform: uppercase;
+	margin-top: 10px;
+	text-align: center;
+}
