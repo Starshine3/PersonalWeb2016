@@ -13,7 +13,6 @@
     </head>
     <body>
 
-
         <!-- Star navigation -->
         <div class="vNav">
             <ul class="vNav">
@@ -43,20 +42,18 @@
         <!-- Intro design -->
         <section class = "section" id = "intro">
             <div class="container">
-                <div class = "title">The Ethereal Past
-                    <div class ="buttons">
-                        <a href="#about-me">
-                            <div class= "section-shortcut">About</div>
-                        </a>
-                        <a href="#projects">
-                            <div class= "section-shortcut">Projects</div>
-                        </a>
-                        <a href="#translation">
-                            <div class= "section-shortcut" id="translations" style="
-    padding-right: 50px;
-">Translations</div>
-                        </a>
-                    </div>
+                <div class = "title">The Ethereal Past</div>
+                <div class ="buttons">
+                    <a href="#about-me">
+                        <div class= "section-shortcut">About</div>
+                    </a>
+                    <a href="#projects">
+                        <div class= "section-shortcut">Projects</div>
+                    </a>
+                    <a href="#translation">
+                        <div class= "section-shortcut" id="translations" style="
+                            padding-right: 50px;">Translations</div>
+                    </a>
                 </div>
             </div>
             <a href="#about-me" class="scroll-down"></a>
@@ -64,43 +61,62 @@
 
         <!-- About me section -->
         <section class = "section" id = "about-me">
-            <div class="side-bar"></div>
         </section>
 
         <!-- Projects section -->
         <section class = "section" id = "projects">
             <div class= "carousel-container">
-                <div id = "carousel">
-                    <div class = "carousel-item">
-                        <div class = "project-picture">
-                        </div>
+                <div class = "carousel-item fade">
+                    <div class = "project-picture">
+                        <img src="assets/img/1.jpg" />
+                    </div>
+                    <div class="project-content">
                         <div class= "project-name">The Enigma</div>
-                        <div class= "project-desc">A Java program which simulates the Enigma machine used by the Germans in WWII. It creates a machine from a given configuration file, then encrypts a given input message.</div>
+                        <div class= "project-desc-box">
+                            <div class="project-desc">
+                                A Java program which simulates the Enigma machine used by the Germans in WWII. It creates a machine from a given configuration file, then encrypts a given input message.
+                            </div>
+                            </div>
                     </div>
-                    <div class = "carousel-item">
-                        <div class = "project-picture">
-                        </div>
+                </div>
+                <div class = "carousel-item fade">
+                    <div class = "project-picture"></div>
+                    <div class="project-content">
                         <div class= "project-name">Air Pollution Globe</div>
-                        <div class= "project-desc">A globe that visualizes the concentration of air pollutants in urban areas across the world. Data obtained from WHO’s May 2016 database.</div>
+                        <div class= "project-desc-box">
+                            <div class="project-desc">
+                                A globe that visualizes the concentration of air pollutants in urban areas across the world. Data obtained from WHO’s May 2016 database.
+                            </div>
+                            </div>
                     </div>
-                    <div class = "carousel-item">
-                        <div class = "project-picture">
-                        </div>
+                </div>
+                <div class = "carousel-item fade">
+                    <div class = "project-picture"></div>
+                    <div class="project-content">
                         <div class= "project-name">Ataxx</div>
-                        <div class= "project-desc">A 2-player checker-like Java game that can be played manually or automatically.</div>
-                    </div>
-                    <div class = "carousel-item">
-                        <div class = "project-picture">
+                        <div class= "project-desc-box">
+                            <div class="project-desc">
+                                A 2-player checker-like Java game that can be played manually or automatically.
+                            </div>
                         </div>
+                    </div>
+                </div>
+                <div class = "carousel-item fade">
+                    <div class = "project-picture"></div>
+                    <div class="project-content">
                         <div class= "project-name">Cube Puzzle</div>
-                        <div class= "project-desc">A Java game in which you try to color all faces of a cube, given a white cube on a 4x4 puzzle with 6 tiles colored. As the cube rolls across the tiles, its face swaps color with the tile that it touches.</div>
+                        <div class= "project-desc-box">
+                            <div class="project-desc">
+                                A Java game in which you try to color all faces of a cube, given a white cube on a 4x4 puzzle with 6 tiles colored. As the cube rolls across the tiles, its face swaps color with the tile that it touches.
+                            </div>
+                            </div>
                     </div>
-                    <div id="carousel-prev">
-                        <img class="img-scaled" src="assets/img/arrowleft.png" />
-                    </div>
-                    <div id="carousel-next">
-                        <img class="img-scaled" src="assets/img/arrowright.png" />
-                    </div>
+                </div>
+                <div class="project-content"id="carousel-prev">
+                    <img src="assets/img/roundedTriangle.svg" />
+                </div>
+                <div class="project-content"id="carousel-next">
+                    <img src="assets/img/roundedTriangle.svg" />
                 </div>
             </div>
         </section>

@@ -41,89 +41,35 @@ $(document).ready(function() {
         $(this).addClass('active');
     });
 
-    //Implement the "slide to left" when the user clicks on #carousel-next here
-    $('#carousel-next').click(function() {
-        var marginLeft = parseInt($('#carousel').css('margin-left').replace("px", ""));
-        if (marginLeft == -3840) {
-            return false;
-        } else {
-            $('#carousel').css("margin-left", marginLeft - 960);
-        }
-    });
-
-    //Implement the "slide to right" when the user clicks on #carousel-prev here
     $('#carousel-prev').click(function() {
-        var marginLeft = parseInt($('#carousel').css('margin-left').replace("px", ""));
-        if (marginLeft == 0) {
-            return false;
-        } else {
-            $('#carousel').css("margin-left", marginLeft + 960);
-        }
-    });
+            plusSlides(-1);
+     });
+      $('#carousel-next').click(function() {
+            plusSlides(1);
+     });
 
-    // Implement a "smooth scroll" when the user clicks on the sidebar links here
-    $("a[href='#carousel-section']").click(function() {
-        $('body').removeClass('no-scroll');
-        $('html, body').animate({
-            scrollTop: $($.attr(this, 'href')).offset().top
-        }, 300);
-        setTimeout(function() {
-            $('.sidebar-container').removeClass('sidebar-active');
-        }, 300);
-        setTimeout(function() {
-            $('#sidebar-button').removeClass('button-active');
-        }, 300);
-        setTimeout(function() {
-            $('.page-wrapper').removeClass('wrapper-active');
-        }, 300);
-        return false;
-    });
-    $("a[href='#name-section']").click(function() {
-        $('body').removeClass('no-scroll');
-        $('html, body').animate({
-            scrollTop: $($.attr(this, 'href')).offset().top
-        }, 300);
-        setTimeout(function() {
-            $('.sidebar-container').removeClass('sidebar-active');
-        }, 300);
-        setTimeout(function() {
-            $('#sidebar-button').removeClass('button-active');
-        }, 300);
-        setTimeout(function() {
-            $('.page-wrapper').removeClass('wrapper-active');
-        }, 300);
-        return false;
-    });
-    $("a[href='#major-section']").click(function() {
-        $('body').removeClass('no-scroll');
-        $('html, body').animate({
-            scrollTop: $($.attr(this, 'href')).offset().top
-        }, 300);
-        setTimeout(function() {
-            $('.sidebar-container').removeClass('sidebar-active');
-        }, 300);
-        setTimeout(function() {
-            $('#sidebar-button').removeClass('button-active');
-        }, 300);
-        setTimeout(function() {
-            $('.page-wrapper').removeClass('wrapper-active');
-        }, 300);
-        return false;
-    });
-    $("a[href='#fact-section']").click(function() {
-        $('body').removeClass('no-scroll');
-        $('html, body').animate({
-            scrollTop: $($.attr(this, 'href')).offset().top
-        }, 300);
-        setTimeout(function() {
-            $('.sidebar-container').removeClass('sidebar-active');
-        }, 300);
-        setTimeout(function() {
-            $('#sidebar-button').removeClass('button-active');
-        }, 300);
-        setTimeout(function() {
-            $('.page-wrapper').removeClass('wrapper-active');
-        }, 300);
-        return false;
-    });
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("carousel-item");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      setTimeout(function() {
+        slides[slideIndex-1].style.display = "block";
+      }, 200);
+    }
+
 });
