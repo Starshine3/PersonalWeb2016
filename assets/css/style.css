@@ -94,7 +94,7 @@ img {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 60px;
-  	top: 15%;
+  	top: 5%;
   	margin-left: 6%;
 	margin-right: 8%;
 	left: 0;
@@ -131,7 +131,7 @@ img {
 
 #intro .scroll-down {
   position: absolute;
-  bottom: 10%;
+  bottom: 8%;
   width: 38px;
   height: 44px;
   left: 47%;
@@ -139,20 +139,15 @@ img {
 }
 
 /* Page section styles. */
-
-#top {
-    background-color: #a7d2cb;
-}
 #about-me {
-    background-color: #f2d388;
+    background-color: #EA9999;
 }
 
 #projects {
-    background-color: #874c62;
+    background-color: #DF6664;
 }
 
 #translation {
-    background-color: #c98474;
 }
 
 /* Project section - Carousel style. */
@@ -226,4 +221,44 @@ img {
 	text-transform: uppercase;
 	margin-top: 10px;
 	text-align: center;
+}
+
+/* Translation section. */
+.translation-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 60px;
+  	top: 15%;
+  	margin-left: 6%;
+	margin-right: 8%;
+	left: 0;
+	right: 0;
+	position: absolute;
+	padding: 10% 0% 25% 0%;
+	border-radius: 40px;
+    border: 10px solid #EA9999;
+    box-shadow: 0px 10px #FFE29C, 0px 22px #9DC4FF;
+}
+.translation-title .buttons {
+	margin-top: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	position: absolute;
+}
+
+.translation-title .section-shortcut {
+	display: inline-block;
+    border-radius: 10px;
+    width: 120px;
+    padding: 1.5% 2% 1.5% 3%;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(146, 196, 125, 0.81);
+}
+
+.section-shortcut:hover {
+	color: #f2d388;
 }
