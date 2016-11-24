@@ -140,6 +140,25 @@ img {
   background: url("../img/cd-arrow-bottom.svg");
 }
 
+#moon {
+	top: -2%;
+	left: 10%;
+	position: absolute;
+}
+
+.stars {
+    animation: spin 1.8s linear;
+    animation-delay: 1.8s;
+}
+@keyframes spin {
+    50% {
+        fill: #f98419;
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 /* Page section styles. */
 #about-me {
     background-color: #EA9999;
@@ -303,7 +322,7 @@ img {
     margin: 20px;
     font-size: 20px;
     font-weight: bold;
-    background-color: rgba(146, 196, 125, 0.81);
+    background-color:#EA9999;
 }
 
 .section-shortcut:hover {
