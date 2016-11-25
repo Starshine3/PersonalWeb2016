@@ -4,8 +4,7 @@
     <list default="true" id="3458b2f4-46d3-4a56-b895-f07c0fb3d150" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/moon.svg" afterPath="$PROJECT_DIR$/assets/img/moon.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/star.svg" afterPath="$PROJECT_DIR$/assets/img/star.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/THE ETHEREAL PAST.svg" afterPath="$PROJECT_DIR$/assets/img/THE ETHEREAL PAST.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/script.js" afterPath="$PROJECT_DIR$/assets/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -33,8 +32,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="59" column="67" selection-start-line="59" selection-start-column="67" selection-end-line="59" selection-end-column="67" />
+                <state relative-caret-position="645">
+                  <caret line="85" column="50" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="50" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#a#2;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -49,8 +48,8 @@
           <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="112">
-                  <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+                <state relative-caret-position="697">
+                  <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -66,22 +65,24 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="moon.svg" pinned="false" current-in-tab="false">
+          <file leaf-file-name="moon.svg" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/img/moon.svg">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+                <state relative-caret-position="555">
+                  <caret line="36" column="9" selection-start-line="21" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="THE ETHEREAL PAST.svg" pinned="false" current-in-tab="true">
+          <file leaf-file-name="THE ETHEREAL PAST.svg" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/img/THE ETHEREAL PAST.svg">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="9915">
+                  <caret line="661" column="127" selection-start-line="661" selection-start-column="127" selection-end-line="661" selection-end-column="127" />
+                  <folding>
+                    <element signature="e#181519#181524#1" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -89,8 +90,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="772">
-                  <caret line="368" column="1" selection-start-line="368" selection-start-column="1" selection-end-line="368" selection-end-column="1" />
+                <state relative-caret-position="472">
+                  <caret line="170" column="32" selection-start-line="170" selection-start-column="15" selection-end-line="170" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
@@ -112,12 +113,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/assets/img/star.svg" />
-        <option value="$PROJECT_DIR$/assets/js/script.js" />
         <option value="$PROJECT_DIR$/assets/img/moon.svg" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/img/hangingStar.svg" />
-        <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/img/Artboard 1.svg" />
+        <option value="$PROJECT_DIR$/assets/img/THE ETHEREAL PAST.svg" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/assets/js/script.js" />
       </list>
     </option>
   </component>
@@ -465,24 +467,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/script.js">
+    <entry file="file://$PROJECT_DIR$/assets/img/Artboard 1.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="7035">
+          <caret line="4" column="38318" selection-start-line="4" selection-start-column="38318" selection-end-line="4" selection-end-column="38318" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="59" column="67" selection-start-line="59" selection-start-column="67" selection-end-line="59" selection-end-column="67" />
+        <state relative-caret-position="645">
+          <caret line="85" column="50" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="50" />
           <folding>
             <element signature="n#style#0;n#div#0;n#a#2;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/THE ETHEREAL PAST.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9915">
+          <caret line="661" column="127" selection-start-line="661" selection-start-column="127" selection-end-line="661" selection-end-column="127" />
+          <folding>
+            <element signature="e#181519#181524#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -495,36 +505,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+    <entry file="file://$PROJECT_DIR$/assets/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
-          <caret line="368" column="1" selection-start-line="368" selection-start-column="1" selection-end-line="368" selection-end-column="1" />
+        <state relative-caret-position="697">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/Artboard 1.svg">
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7035">
-          <caret line="4" column="38318" selection-start-line="4" selection-start-column="38318" selection-end-line="4" selection-end-column="38318" />
-          <folding>
-            <element signature="e#139859#139864#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="472">
+          <caret line="170" column="32" selection-start-line="170" selection-start-column="15" selection-end-line="170" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/img/moon.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/THE ETHEREAL PAST.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="555">
+          <caret line="36" column="9" selection-start-line="21" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
           <folding />
         </state>
       </provider>

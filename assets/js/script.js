@@ -74,4 +74,8 @@ $(document).ready(function() {
       }, 200);
     }
 
+    /* Background svgs. */
+    $('#one').hover(function() {
+        $('.starOne').css('animation', 'spin 1.8s linear;')
+    });
 });
