@@ -2,18 +2,6 @@
 <!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="277px" height="262.3px" viewBox="0 0 277 262.3" enable-background="new 0 0 277 262.3" xml:space="preserve">
-	<style>
-		polygon {
-			animation: shine 1.8s linear;
-			animation-delay: 1.8s;
-		}
-
-		@keyframes shine {
-		50% {
-          fill: #f98419;
-        }
-		}
-	</style>
 <g>
 	<polygon fill="#F2D388" points="134.9,7.9 174.2,87.6 262.2,100.4 198.5,162.5 213.6,250.1 134.9,208.7 56.2,250.1 71.2,162.5 
 		7.5,100.4 95.5,87.6 	"/>

@@ -100,13 +100,14 @@ img {
 	left: 0;
 	right: 0;
 	position: absolute;
-	padding: 8%;
+	padding: 6%;
 	border-radius: 40px;
     border: 10px solid #EA9999;
     box-shadow: 0px 10px #FFE29C, 0px 22px #9DC4FF;
 }
 .title {
-    margin-bottom: 18%;
+	margin-top: 5%;
+    margin-bottom: 13%;
 }
 .container.buttons {
 	margin-left: auto;
@@ -140,6 +141,18 @@ img {
   background: url("../img/cd-arrow-bottom.svg");
 }
 
+#hangStarOne {
+    width: 7%;
+    position: absolute;
+    top: -6%;
+    right: 35%
+}
+#hangStarTwo {
+    width: 11%;
+    position: absolute;
+    top: -6%;
+    right: 5%
+}
 #moon {
 	top: -2%;
 	left: 10%;
@@ -147,15 +160,41 @@ img {
 }
 
 .stars {
-    animation: spin 1.8s linear;
-    animation-delay: 1.8s;
+    animation-delay: 3.6s;
+    animation: ease-in-out forwards;
 }
+#starOne {
+	position: absolute;
+	left: 0;
+	top: 35%;
+	width: 5%;
+	animation: spin 1.8s linear;
+}
+
 @keyframes spin {
-    50% {
-        fill: #f98419;
-    }
     100% {
         transform: rotate(360deg);
+    }
+}
+
+#starTwo {
+	position: absolute;
+	top: -15%;
+	width: 3%;
+	animation: spin 1.8s linear;
+}
+
+#starThree {
+	position: absolute;
+	right: 0;
+	top: 15%;
+	width: 5%;
+	animation: expand 1.8s linear;
+}
+
+@keyframes expand {
+    50% {
+        transform: scale(1.5);
     }
 }
 

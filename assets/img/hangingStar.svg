@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="117px" height="306px" viewBox="0 0 117 306" enable-background="new 0 0 117 306" xml:space="preserve">
-    <style>
+	 width="277px" height="817.4px" viewBox="0 0 277 817.4" enable-background="new 0 0 277 817.4" xml:space="preserve">
+	    <style>
         #rope {
-
 	        animation: dash 1.8s ease-in-out forwards;
-
         }
         @keyframes dash {
 	        from {
@@ -19,7 +17,7 @@
 		        opacity: 1;
 	        }
         }
-        #moon {
+        #star {
             animation: shine 1s ease-in-out forwards;
             animation-delay: 1.8s;
             opacity: 0;
@@ -37,9 +35,10 @@
         }
     </style>
 
-<path id="rope" fill="none" stroke="#A3C1E6" stroke-width="7" stroke-miterlimit="10" d="M45-9c-7.5,40.4-11.5,73.8,9,108c27,45,18,81,0,99"
-	/>
-<path id ="moon" fill="#F2D388" stroke="#F2D388" stroke-width="4" stroke-miterlimit="10" d="M39.1,244.6c-0.4-25.6,20.5-46.7,46.8-47.2
-	c3.7-0.1,7.4,0.3,10.9,1.1c-9.4-6.1-20.7-9.6-32.8-9.4c-31.4,0.5-56.5,25.5-56,55.8s26.4,54.4,57.8,53.9c11.7-0.2,22.4-3.8,31.4-9.7
-	c-3.1,0.7-6.4,1.1-9.7,1.1C61.2,290.6,39.6,270.2,39.1,244.6z"/>
+<path id="rope" fill="none" stroke="#92C47D" stroke-width="18" stroke-miterlimit="10" d="M143.1,12.2c0,105.7-30.6,126.6-63.3,200.1
+	C1.7,388,181.9,473.6,141,614.5"/>
+<g>
+	<polygon id = "star" fill="#F2D388" points="134.9,563 174.2,642.7 262.2,655.5 198.5,717.6 213.6,805.2 134.9,763.8 56.2,805.2 71.2,717.6
+		7.5,655.5 95.5,642.7 	"/>
+</g>
 </svg>

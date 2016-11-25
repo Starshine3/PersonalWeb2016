@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+    /* Vertical dot navigation. */
     var sectionPosition = [];
     $('section').each(function() {
         sectionPosition.push($(this).offset().top);
@@ -48,6 +49,7 @@ $(document).ready(function() {
             plusSlides(1);
      });
 
+    /* Carousel section. */
     var slideIndex = 1;
     showSlides(slideIndex);
 
