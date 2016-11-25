@@ -141,17 +141,23 @@ img {
   background: url("../img/cd-arrow-bottom.svg");
 }
 
-#hangStarOne {
+#shineStarOne {
+    width: 5%;
+    position: absolute;
+    left: 25%
+}
+#shineStarTwo {
     width: 7%;
     position: absolute;
-    top: -6%;
-    right: 35%
+    bottom: 25%;
+    right: 20%
 }
-#hangStarTwo {
-    width: 11%;
-    position: absolute;
-    top: -6%;
-    right: 5%
+.shineStars {
+    animation-delay: 3.6s;
+    animation: ease-in-out forwards;
+}
+.shineStars:hover {
+	animation: expand 0.8s linear;
 }
 #moon {
 	top: -2%;
@@ -163,38 +169,47 @@ img {
     animation-delay: 3.6s;
     animation: ease-in-out forwards;
 }
+.stars:hover {
+	animation: spin 1.8s linear;
+}
 #starOne {
 	position: absolute;
-	left: 0;
 	top: 35%;
 	width: 5%;
-	animation: spin 1.8s linear;
+	left: 55%;
 }
-
-@keyframes spin {
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
 #starTwo {
 	position: absolute;
-	top: -15%;
-	width: 3%;
-	animation: spin 1.8s linear;
+	left: 0;
+	top: 45%;
+	width: 2%;
 }
-
 #starThree {
 	position: absolute;
-	right: 0;
-	top: 15%;
-	width: 5%;
-	animation: expand 1.8s linear;
+	top: 25%;
+	right: 2%;
+	width: 4%;
 }
-
+#starFour {
+	position: absolute;
+	width: 2%;
+	top: 5%;
+	right: 45%;
+}
+#starFive {
+	position: absolute;
+	width: 4%;
+	bottom: 18%;
+	left: 33%;
+}
 @keyframes expand {
     50% {
         transform: scale(1.5);
+    }
+}
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
     }
 }
 

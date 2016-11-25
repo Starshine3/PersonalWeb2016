@@ -3,42 +3,20 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="117px" height="306px" viewBox="0 0 117 306" enable-background="new 0 0 117 306" xml:space="preserve">
     <style>
-        #rope {
-
-	        animation: dash 1.8s ease-in-out forwards;
-
-        }
-        @keyframes dash {
-	        from {
-                stroke-dasharray: 10px;
-                stroke-dashoffset: 10px;
-                opacity: 0.1;
-            }
-            to {
-                stroke-dashoffset: 0;
-		        opacity: 1;
-	        }
-        }
         #moon {
             animation: shine 1s ease-in-out forwards;
             animation-delay: 1.8s;
-            opacity: 0;
         }
+
+
         @keyframes shine {
-            5% {
-                opacity: .5;
-            }
             50% {
                  fill: #f98419;
                 }
-            100% {
-                opacity: 1;
-            }
         }
+
     </style>
 
-<path id="rope" fill="none" stroke="#A3C1E6" stroke-width="7" stroke-miterlimit="10" d="M45-9c-7.5,40.4-11.5,73.8,9,108c27,45,18,81,0,99"
-	/>
 <path id ="moon" fill="#F2D388" stroke="#F2D388" stroke-width="4" stroke-miterlimit="10" d="M39.1,244.6c-0.4-25.6,20.5-46.7,46.8-47.2
 	c3.7-0.1,7.4,0.3,10.9,1.1c-9.4-6.1-20.7-9.6-32.8-9.4c-31.4,0.5-56.5,25.5-56,55.8s26.4,54.4,57.8,53.9c11.7-0.2,22.4-3.8,31.4-9.7
 	c-3.1,0.7-6.4,1.1-9.7,1.1C61.2,290.6,39.6,270.2,39.1,244.6z"/>
