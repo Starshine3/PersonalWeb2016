@@ -14,7 +14,7 @@
 	.st8{fill:#DF6664;}
 	.st9{fill:#EA9999;}
 	.st10{fill:none;stroke:#000000;}
-	.st11{font-family:'ArialMT';}
+	.st11{font-family:'Phosphate-Solid';}
 	.st12{font-size:34.4744px;}
 	.st13{letter-spacing:-1.1;}
 	.st14{font-size:34.473px;}
@@ -27,6 +27,20 @@
 	.st21{font-size:28px;}
 	.st22{font-size:20px;}
 	.st23{font-size:24px;}
+	.name{
+		opacity: 0;
+		animation: shine 1s ease-in-out forwards;
+		animation-delay: 1s;
+	}
+	@keyframes shine {
+		50% {
+			opacity: .5;
+		}
+		75% {fill: #DF6664;}
+		100% {
+			opacity: 1;
+		}
+	}
 </style>
 <rect id="class" x="34" y="172.2" class="st0" width="153.6" height="43.6"/>
 <g id="dotted">
@@ -52,18 +66,18 @@
 <polygon id="thunder" class="st9" points="361.8,396.4 401.2,399.8 440.2,402.4 417.8,389.7 458.3,388 439.1,379.8 484.3,369.2 
 	406.8,366.4 429.4,380.2 387.1,382.3 414.4,394.1 "/>
 <g id="myname">
-	<text transform="matrix(0.8933 0.2252 -0.2444 0.9697 298.8775 454.8228)" class="st10 st11 st12">K</text>
-	<text transform="matrix(0.9071 0.1606 -0.1743 0.9847 316.9262 459.2102)" class="st10 st11 st12 st13">A</text>
-	<text transform="matrix(0.9102 0.142 -0.1542 0.988 333.6991 462.1753)" class="st10 st11 st14">T</text>
-	<text transform="matrix(0.9201 -4.661630e-02 5.060135e-02 0.9987 352.3568 464.9902)" class="st10 st11 st12">E</text>
-	<text transform="matrix(0.9057 -0.1684 0.1828 0.9831 389.7459 460.2291)" class="st10 st11 st15">S</text>
-	<text transform="matrix(0.9132 -0.1214 0.1318 0.9913 404.805 457.3094)" class="st10 st11 st12">H</text>
-	<text transform="matrix(0.9176 -8.222787e-02 8.925722e-02 0.996 425.1178 454.7484)" class="st10 st11 st12">I</text>
-	<text transform="matrix(0.9194 -5.799075e-02 6.294816e-02 0.998 432.5275 454.0578)" class="st10 st11 st12">J</text>
-	<text transform="matrix(0.9205 -3.660820e-02 3.973770e-02 0.9992 444.1253 453.3518)" class="st10 st11 st12">I</text>
-	<text transform="matrix(0.9211 -1.561400e-02 1.694878e-02 0.9999 451.5668 453.0149)" class="st10 st11 st16">E</text>
-	<text transform="matrix(0.9211 1.548510e-02 -1.680887e-02 0.9999 500.6596 453.1411)" class="st10 st11 st17">X</text>
-	<text transform="matrix(0.9212 7.986096e-03 -8.668796e-03 1 518.7207 453.4622)" class="st10 st11 st18">U</text>
+	<text transform="matrix(0.8933 0.2252 -0.2444 0.9697 298.8775 454.8228)" class="name st11 st12">K</text>
+	<text transform="matrix(0.9071 0.1606 -0.1743 0.9847 316.9262 459.2102)" class="name st11 st12 st13">A</text>
+	<text transform="matrix(0.9102 0.142 -0.1542 0.988 333.6991 462.1753)" class="name st11 st14">T</text>
+	<text transform="matrix(0.9201 -4.661630e-02 5.060135e-02 0.9987 352.3568 464.9902)" class="name st11 st12">E</text>
+	<text transform="matrix(0.9057 -0.1684 0.1828 0.9831 389.7459 460.2291)" class="name st11 st15">S</text>
+	<text transform="matrix(0.9132 -0.1214 0.1318 0.9913 404.805 457.3094)" class="name st11 st12">H</text>
+	<text transform="matrix(0.9176 -8.222787e-02 8.925722e-02 0.996 425.1178 454.7484)" class="name st11 st12">I</text>
+	<text transform="matrix(0.9194 -5.799075e-02 6.294816e-02 0.998 432.5275 454.0578)" class="name st11 st12">J</text>
+	<text transform="matrix(0.9205 -3.660820e-02 3.973770e-02 0.9992 444.1253 453.3518)" class="name st11 st12">I</text>
+	<text transform="matrix(0.9211 -1.561400e-02 1.694878e-02 0.9999 451.5668 453.0149)" class="name st11 st16">E</text>
+	<text transform="matrix(0.9211 1.548510e-02 -1.680887e-02 0.9999 500.6596 453.1411)" class="name st11 st17">X</text>
+	<text transform="matrix(0.9212 7.986096e-03 -8.668796e-03 1 518.7207 453.4622)" class="name st11 st18">U</text>
 </g>
 <rect x="154" y="78" class="st19" width="228" height="49"/>
 <text transform="matrix(1 0 0 1 154 96.6758)" class="st20 st21">UC BERKELEY</text>

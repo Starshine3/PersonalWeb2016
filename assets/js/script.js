@@ -74,8 +74,13 @@ $(document).ready(function() {
       }, 200);
     }
 
-    /* Background svgs. */
-    $('#one').hover(function() {
-        $('.starOne').css('animation', 'spin 1.8s linear;')
+    /* Picture of me. */
+    $('#pic').hover(function() {
+        console.log("hi");
+        $('#shadowOne').attr('opacity', '0');
+        $('#myPic').css('opacity', '1');
+    }, function() {
+        $('#shadowOne').css('opacity', '1');
+        $('#myPic').css('opacity', '0');
     });
 });
