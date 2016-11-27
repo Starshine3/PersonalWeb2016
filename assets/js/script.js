@@ -76,7 +76,6 @@ $(document).ready(function() {
 
     /* Picture of me. */
     $('#pic').hover(function() {
-        console.log("hi");
         $('#shadowOne').attr('opacity', '0');
         $('#myPic').css('opacity', '1');
     }, function() {
